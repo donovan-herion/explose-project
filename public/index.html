@@ -7,17 +7,21 @@
     <title>Explose Project</title>
 </head>
 <body class="bg-black text-white font-helvetica overflow-x-hidden">
-    <nav>
-        <ul class="flex justify-between pt-10 px-32 text-gray-400">
+    <nav class="fixed top 0 w-full z-50">
+        <ul class="flex justify-between w-full pt-10 px-32 text-gray-400">
             <li>
-                <a class="cursor-pointer text-2xl" href="/">Bigtone</a>
+                <a class="cursor-pointer text-2xl" href="/">BigTone</a>
             </li>
             <li>
                 <a class="cursor-pointer text-2xl" href="menu.html">Menu</a>
             </li>
         </ul>
     </nav>
-    <header class="relative">
+    <aside class="fixed bottom-0 right-0 w-3/12 m-16 p-8 bg-darkgray z-50" id="cookies">
+        <p class="pb-4  text-gray-400">To provide the best possible experience, our site uses both necessary and optional cookies to store information. By continuing to browse you are accepting our Cookie Policy.</p>
+        <a class="pb-1 border-b border-gray-400 cursor-pointer">Accept</a>
+    </aside>
+    <header class="relative pt-20">
         <img class="m-auto w-2/5" src="images/mission-img.png" alt="mission-img">
         <h1 class="absolute leading-none top-0 text-giant px-32 mt-70 font-thin">Shapes 
             <div>
@@ -54,7 +58,14 @@
         </section>
         <section class="relative">
             <img class="w-full" src="images/video-img.png" alt="beach-background">
-            <h2 class="absolute top-0 mt-66 ml-48 text-giant">Our <span class="text-base"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="30" height="34" viewBox="0 0 30 34"><defs><style>.a{fill:none;}.b,.c{stroke:none;}.c{fill:#fff;}</style></defs><g class="a" transform="translate(30) rotate(90)"><path class="b" d="M17,0,34,30H0Z"/><path class="c" d="M 17 8.113386154174805 L 6.864252090454102 26 L 27.1357479095459 26 L 17 8.113386154174805 M 17 0 L 34 30 L 0 30 L 17 0 Z"/></g></svg>Play</span><span class="block">Shapes</span></h2>
+            <h2 class="absolute top-0 mt-66 ml-70 text-giant leading-normal">Our 
+                <span class="text-base absolute top-0 mt-24 ml-48">
+                    <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" width="30" height="34" viewBox="0 0 30 34"><defs><style>.a{fill:none;}.b,.c{stroke:none;}.c{fill:#fff;}</style></defs><g class="a" transform="translate(30) rotate(90)"><path class="b" d="M17,0,34,30H0Z"/><path class="c" d="M 17 8.113386154174805 L 6.864252090454102 26 L 27.1357479095459 26 L 17 8.113386154174805 M 17 0 L 34 30 L 0 30 L 17 0 Z"/></g>
+                    </svg>
+                    <span class="ml-4">Play</span>
+                </span>
+                <span class="block">Shapes</span>
+            </h2>
         </section>
     </main>
     <footer class="mx-48 py-32 text-gray-400 text-lg">
@@ -76,5 +87,6 @@
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

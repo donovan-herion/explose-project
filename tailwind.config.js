@@ -14,8 +14,11 @@ module.exports = {
         helvetica: ['"Helvetica Neue"', "Arial"],
       },
       spacing: {
-        66: "20rem",
+        66: "18rem",
         70: "22rem",
+      },
+      colors: {
+        darkgray: "#191919",
       },
     },
   },
