@@ -7,6 +7,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.card {
-  @apply bg-white rounded overflow-hidden shadow-md relative;
+.basic {
+  @apply bg-black text-white font-helvetica;
 }
