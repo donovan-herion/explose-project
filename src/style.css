@@ -1,3 +1,8 @@
+@font-face {
+  font-family: mapolice;
+  src: url(fonts/HelveticaNeue-Thin.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

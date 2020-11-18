@@ -11,7 +11,7 @@ module.exports = {
         plus: "14rem",
       },
       fontFamily: {
-        helvetica: ['"Helvetica Neue"'],
+        helvetica: ["mapolice"],
       },
       spacing: {
         66: "18rem",
