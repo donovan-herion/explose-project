@@ -10446,7 +10446,7 @@ video {
 }
 
 .font-helvetica {
-  font-family: "Helvetica Neue", Arial;
+  font-family: "Helvetica Neue";
 }
 
 .font-hairline {
@@ -32053,7 +32053,7 @@ video {
   }
 
   .sm\:font-helvetica {
-    font-family: "Helvetica Neue", Arial;
+    font-family: "Helvetica Neue";
   }
 
   .sm\:font-hairline {
@@ -53585,7 +53585,7 @@ video {
   }
 
   .md\:font-helvetica {
-    font-family: "Helvetica Neue", Arial;
+    font-family: "Helvetica Neue";
   }
 
   .md\:font-hairline {
@@ -75117,7 +75117,7 @@ video {
   }
 
   .lg\:font-helvetica {
-    font-family: "Helvetica Neue", Arial;
+    font-family: "Helvetica Neue";
   }
 
   .lg\:font-hairline {
@@ -96649,7 +96649,7 @@ video {
   }
 
   .xl\:font-helvetica {
-    font-family: "Helvetica Neue", Arial;
+    font-family: "Helvetica Neue";
   }
 
   .xl\:font-hairline {
